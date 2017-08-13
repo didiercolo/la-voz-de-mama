@@ -1391,6 +1391,15 @@ h1, h2, h3, h4, h5, h6, figure {
   background: url(../images/loader.gif) center no-repeat #fff;
 }
 
+p .text-right{
+  text-align: right;
+}
+
+p .read-more {
+  font-weight: bold;
+  color:#a58584;
+  text-decoration: underline;
+}
 /*.js .animate-box {
   opacity: 0;
 }*/
