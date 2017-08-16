@@ -792,10 +792,19 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: 600;
+  }
 }
 .fh5co-blog .blog-text h3 a {
   color: black;
+   height: 50px;
+  width: 100%;
+  display: block;
 }
+
+.blog-content{
+  max-height: 300px;
+}
+
 .fh5co-blog .blog-text .fh5co-social-icons {
   margin-top: 30px;
 }
@@ -809,6 +818,18 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 3px;
   font-size: 13px;
 }
+
+.blog-desc {
+  height: 150px;
+  width: 100%;
+  display: block;
+  }
+
+  .blog-title{
+      height: 50px;
+  width: 100%;
+  display: block;
+  }
 
 .insta {
   height: 350px;
