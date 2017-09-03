@@ -18,6 +18,7 @@
 
   <!-- CSS  -->
   <!--link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"-->
+  <script src="js/typed.min.js" type="text/javascript"></script>
   <link href="https://fonts.googleapis.com/css?family=Ribeye" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/materialize_style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -42,6 +43,7 @@
             <div class="col s10 center pull-s2">
                 <br><br><br>
                 <h1 class="white-text" style="font-family: 'Ribeye', cursive;">Comming Soon!</h1>
+                <h3><span class="white-text" id="core" style=" font-family: 'Ribeye', cursive;">Our </span><span class="white-text" id="typed" style=" font-family: 'Ribeye', cursive;"></span></h3>
             </div>
         </div>      
     </div>
@@ -139,6 +141,16 @@ var x = setInterval(function() {
     document.getElementById("seconds").innerHTML = "";
   }
 }, 1000);
+        
+  var typed3 = new Typed('#typed', {
+    strings: ['stories!', 'lifes!', 'moments!'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    cursorChar: '',
+    bindInputFocusEvents: true,
+    smartBackspace: true, // this is a default
+    loop: true
+  });
 </script>
     
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
